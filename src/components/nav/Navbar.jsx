@@ -124,7 +124,7 @@ const Navbar = () => {
             </Button>
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          <Box sx={{ flexGrow: 0, ml: 1 }}>
             {currentUser && currentUser !== null && (
               <Typography
                 component={Link}
