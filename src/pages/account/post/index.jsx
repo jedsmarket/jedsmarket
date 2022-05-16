@@ -105,7 +105,7 @@ function CreatePost() {
         setState({ ...state, loading: false, postedBy: docSnap.data().email });
       } else {
         // doc.data() will be undefined in this case
-        const message = 'Error retrieving user data';
+        const message = 'Error retrieving user data. Please refresh your page.';
         console.log(message);
         setState({
           ...state,

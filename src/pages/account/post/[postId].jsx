@@ -121,7 +121,7 @@ function PostEdit() {
         }
       } else {
         // doc.data() will be undefined in this case
-        const message = 'Error retrieving post data';
+        const message = 'Error retrieving post data. Please refresh your page';
         console.log(message);
         setState({
           ...state,

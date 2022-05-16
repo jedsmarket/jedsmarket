@@ -131,7 +131,7 @@ function Account() {
       //
     } else {
       // doc.data() will be undefined in this case
-      const message = 'Error retrieving user data';
+      const message = 'Error retrieving user data. Please refresh';
       console.log(message);
       setState({
         ...state,
