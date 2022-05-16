@@ -137,7 +137,7 @@ function SignInScreen() {
           duration: 8000,
           type: 'success',
           open: true,
-          message: `A verification link has been sent to your email, ${email}.`,
+          message: `A verification link has been sent to your email, ${email}. Check your spam folder if not received.`,
         });
         router.push('/');
         // ...
