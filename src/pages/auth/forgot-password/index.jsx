@@ -58,7 +58,7 @@ function Index() {
           setSnack({
             type: 'error',
             duration: 3000,
-            message: `An error occurred`,
+            message: `An error occurred: ${error.message}`,
             open: true,
           });
         });

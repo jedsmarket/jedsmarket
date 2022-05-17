@@ -119,6 +119,7 @@ function CreatePost() {
           message: 'You need to be logged in to create a post.',
           open: true,
         });
+        
         router.push('/auth/login');
       }
     } catch {
