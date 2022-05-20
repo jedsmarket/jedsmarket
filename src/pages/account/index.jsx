@@ -81,12 +81,13 @@ function Account() {
     if (currentUser && currentUser.email) {
       fetchUserData();
     } else {
+      return router.push('/');
       const delayed = () =>
         setTimeout(() => {
           if (currentUser && currentUser !== null) {
-            router.push('/');
-          } else {
             return;
+          } else {
+            router.push('/');
           }
         }, 3000);
 

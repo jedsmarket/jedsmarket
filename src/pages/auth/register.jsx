@@ -192,6 +192,7 @@ function SignInScreen() {
           ...state,
           loading: false,
         });
+        
         setSnack({
           duration: 4000,
           type: 'error',
